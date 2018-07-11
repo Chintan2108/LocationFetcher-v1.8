@@ -9,10 +9,10 @@ from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
 
-access_token = "2180011045-RYDPjdulr7nQfjdeSyxoIQCeLMUfqv2KYwjG7h8"
-access_token_secret = "LRydocUPSL4an2lHcGBBJLi2lI5FkaEx9gvS23N1Li5M9"
-consumer_key = "fetOZ1RoFZkb5YVNlD4Rhfbbv"
-consumer_secret = "gxKXWqDHNqoWAijoOIIJ5Bu08wHhhOhk1Oqsur2W7MgikSKhE6"
+access_token = ""
+access_token_secret = ""
+consumer_key = ""
+consumer_secret = ""
 
 class StdOutListener(StreamListener):
     fh = open('t.txt', 'w')
